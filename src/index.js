@@ -42,7 +42,7 @@ function decode(expr) {
     // write your solution here
     const array = [];
     const regZero = /00/g;
-    const regSpace = /\*10/g;
+    const regSpace = /\*{10}/g;
     const regTen = /10/g;
     const regEleven = /11/g;
 
